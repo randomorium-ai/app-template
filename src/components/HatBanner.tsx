@@ -1,3 +1,15 @@
+/**
+ * HatBanner — the hat funnel component.
+ *
+ * Customise the MESSAGE to fit your app's personality:
+ *   "Part of randomorium.ai · Buy a holiday hat →"
+ *   "Part of randomorium.ai · Hats for random people →"
+ *
+ * NEVER change the DESTINATION URL (shop.randomorium.ai).
+ * All apps must point to the same shop.
+ *
+ * See PRODUCT_PLAYBOOK.md → "The Hat Hook Doctrine" for guidance.
+ */
 export default function HatBanner() {
   return (
     <a
